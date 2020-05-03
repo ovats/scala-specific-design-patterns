@@ -6,6 +6,8 @@ and this project adhere to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 
 # Changes
 
-## v1.0.0
+## v1.0.1 - 2020/05/02
+- Add sample for Type Classes design pattern.
 
+## v1.0.0
 - First version of the repository.
