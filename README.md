@@ -110,5 +110,14 @@ Let’s define a Printable type class to work around these problems:
     * format accepts a value of type A and a Printable of the corresponding type. It uses the relevant Printable to convert the A to a String.
     * print accepts the same parameters as format and returns Unit. It prints the A value to the console using println.
                                                                                               
+File `Printable.scala` contains:
 
+- Type Class: `Trait Printable[A]`
+- Type Class instances in `object PrintableInstances`
+- Type Class interface in `object Printable`. This is the `Interface Objects` solution.
+
+In `object PrintableInstances` we have definitions for `Int` and `String`.
+What if we want use the `Printable[A]` for other objects?
+
+We have defined a case class `Person` and its type class instance in the `Person.scala` file.
                                                                                               

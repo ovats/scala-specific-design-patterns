@@ -6,6 +6,9 @@ and this project adhere to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 
 # Changes
 
+## v1.0.2 - 2020/05/03
+- In sample patterns.typeclasses.examples.printable new case class Person and its Type Class instance.
+
 ## v1.0.1 - 2020/05/02
 - Add sample for Type Classes design pattern.
 
