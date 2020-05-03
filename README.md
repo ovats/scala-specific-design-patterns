@@ -4,11 +4,11 @@
 
 There are three important components to the type class pattern:
  
-- the type class itself, 
+- the Type Class itself, 
 - instances for particular types, 
 - and the interface methods that we expose to users.
 
-The Type Class is an interface or API that represents some funcঞonality we want to implement, is represented by a trait with at least one type parameter.
+The Type Class is an interface or API that represents some functionality we want to implement, is represented by a trait with at least one type parameter.
 
 ```scala
 trait JsonWriter[A] {
@@ -96,6 +96,7 @@ Person("Dave", "dave@example.com").toJson
 ### Example 1: Printable Library
 
 Let’s define a Printable type class to work around these problems:
+
 - Define a type class Printable[A] containing a single method format. format should accept a value of type A and return a String.
 - Create an object PrintableInstances containing instances of Printable for String and Int.
 - Define an object Printable with two generic interface methods:
