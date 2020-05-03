@@ -1,5 +1,12 @@
 # Scala Specific Design Patterns
 
+List of design patterns in this project:
+
+- Lazy Parameters (to do)
+- Type Classes
+- Stackable Traits (to do)
+- Cake Pattern (to do)
+
 ## Type Classes
 
 There are three important components to the type class pattern:
