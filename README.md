@@ -78,7 +78,7 @@ Json.toJson(Person("Dave", "dave@example.com"))
 
 Interface Syntax
 
-We can alternatively use extension methods to extend exiting types with interface methods². Cats refers to this as “syntax” for the type class:
+We can alternatively use extension methods to extend exiting types with interface methods. Cats refers to this as “syntax” for the type class:
 
 ```scala
 object JsonSyntax {
@@ -89,7 +89,7 @@ object JsonSyntax {
 }
 ```
 
-We use interface syntax by imporঞng it alongside the instances for the types we need:
+We use interface syntax by importing it alongside the instances for the types we need:
 
 ```scala
 import JsonWriterInstances._
